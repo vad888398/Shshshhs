@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровой магазин</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Цифровые товары</h1>
+        <nav>
+            <a href="cart.html">Корзина</a> | <a href="settings.html">Настройки</a>
+        </nav>
+    </header>
+    <main>
+        <div class="products">
+            <div class="product" data-id="1" data-name="Электронная книга" data-price="500">
+                <img src="https://via.placeholder.com/150" alt="Электронная книга">
+                <h2>Электронная книга</h2>
+                <p>Цена: 500₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product" data-id="2" data-name="Музыкальный альбом" data-price="300">
+                <img src="https://via.placeholder.com/150" alt="Музыкальный альбом">
+                <h2>Музыкальный альбом</h2>
+                <p>Цена: 300₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
